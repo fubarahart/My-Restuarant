@@ -34,7 +34,7 @@ nav .logo {
     font-weight: bold;
 }
 .hero {
-    height: 100vh; 
+    height: 50vh; 
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -69,7 +69,7 @@ nav .logo {
 }
 #menu {
     padding: 5rem;
-    max-width: 1200px;
+    max-width: 5000px;
     margiin: 0 auto;
 
 }
@@ -84,7 +84,6 @@ nav .logo {
     margin-top: 2rem;
 }
 .item {
-    background-color: white;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 3px 10px  rgb(0, 0, 0, 0.1);
@@ -92,8 +91,18 @@ nav .logo {
     margin: 10px;
     background-color: #e74c3c;
     transition: background-color 0.8s;
+    padding: 0.5rem 0.2rem; 
+    justify-items: center;
 }
 .item:hover {
     transform: translateY(-5px);
     background-color: orange;
+}
+.item-content {
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pic {
+    border-radius: 15px
 }
